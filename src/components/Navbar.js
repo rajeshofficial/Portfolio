@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { SiFiverr } from "react-icons/si";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -94,11 +95,13 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="http://www.instagram.com/craftdelhi"
+                href="https://www.fiverr.com/s/187lg9"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Craft
+                
+                <SiFiverr style={{ marginBottom: "2px" }} /> Free Lancing 
+
               </Nav.Link>
             </Nav.Item>
 
