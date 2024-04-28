@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import wordpress from "../../Assets/Projects/wordPress.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
@@ -55,14 +55,14 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="CraftDelhi"
-              description="My aspiration was to elevate the appeal of locally crafted handmade gifts, each meticulously created. I established an Instagram page, catering to 600+ customers by crafting personalized handmade gifts for various occasions. The venture gained 17 thousand followers and contributed to the livelihoods of 7 families. Unfortunately, I had to close the business due to academic commitments."
-              demoLink="https://instagram.com/craftdelhi/"
-              
-            />
+          <ProjectCard
+  imgPath={wordpress}
+  isWordpress={false}
+  title="WordPress"
+  description="I'm currently engaged in freelance work for a client whom I connected with via Fiverr. In order to ensure the fulfillment of the client's expectations, I've employed a combination of custom CSS, Elementor, and several other plugins. The website I'm developing is designed to be fully responsive across all devices. Moreover, specific content blocks are strategically set to be visible based on the device and viewport, enhancing the user experience across various platforms."
+  wordpressLink="https://rajfolio.com/"
+/>
+
           </Col>
 
           <Col md={4} className="project-card">
@@ -81,10 +81,11 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
-              isBlog={false}
+              isCode={false}
+              isLink={false}
               title="blog"
               description=" Unveiling a versatile blog platform, meticulously designed for daily expressions. This user-friendly space encourages writers to effortlessly compose and share thoughts, experiences, and insights. The minimalist design ensures a focused writing environment, promoting consistent engagement. With intuitive features and a sleek aesthetic, the blog page offers a dynamic outlet for daily reflections and meaningful connections between authors and readers"
-              ghLink="https://github.com/rajeshofficial"
+              getLink="https://github.com/rajeshofficial"
              
             />
           </Col>
