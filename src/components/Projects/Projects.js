@@ -60,7 +60,7 @@ function Projects() {
   isWordpress={false}
   title="WordPress"
   description="I'm currently engaged in freelance work for a client whom I connected with via Fiverr. In order to ensure the fulfillment of the client's expectations, I've employed a combination of custom CSS, Elementor, and several other plugins. The website I'm developing is designed to be fully responsive across all devices. Moreover, specific content blocks are strategically set to be visible based on the device and viewport, enhancing the user experience across various platforms."
-  wordpressLink="https://rajfolio.com/"
+  wordpressLink="https://brashealthcare.com"
 />
 
           </Col>
