@@ -33,7 +33,7 @@ function Projects() {
               description="The platform is designed to make SDG-related data accessible to a wide audience, including those without research experience. It features a visual map offering country-specific data at a click, and a research paper search engine tailored for students, streamlining access to academic resources and other useful tools.
               "
               ghLink="https://github.com/rajeshofficial/InteractiveMaps.git"
-              demoLink="https://app.netlify.com/sites/interactivemapsdev/overview"
+              demoLink="https://github.com/rajeshofficial/Portfolio.git"
 
             />
           </Col>
