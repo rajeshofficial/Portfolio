@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/forecast.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import urbanmati from "../../Assets/Projects/urban.png";
 
 import SDGdevelopment from "../../Assets/Projects/sustainbleD.png";
 
@@ -29,7 +30,7 @@ function Projects() {
 
               imgPath={SDGdevelopment}
               isBlog={false}
-              title="Sustainable development maps"
+              title="Sustainable development maps (React)"
               description="The platform is designed to make SDG-related data accessible to a wide audience, including those without research experience. It features a visual map offering country-specific data at a click, and a research paper search engine tailored for students, streamlining access to academic resources and other useful tools.
               "
               ghLink="https://github.com/rajeshofficial/InteractiveMaps.git"
@@ -41,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="RajStore"
+              title="RajStore (React) "
               description="The shopping page frontend for buying various products. It's fully responsive, allowing easy navigation. Add products to your cart, explore more items, and use a simple navigation bar. Built with HTML, JavaScript, React, JSX, and CSS.
               "
               ghLink="https://github.com/rajeshofficial/RajStore"
@@ -53,18 +54,25 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="CarRyRaj"
+              title="CarRyRaj ((React))"
               description="CarByRaj is the go-to shopping page for luxury car enthusiasts. Discover a curated selection of high-end vehicles, choose colors, and explore various ranges from top companies. The seamless experience is powered by HTML, JavaScript, and jQuery."
               ghLink="https://github.com/rajeshofficial/RajCarShop"
               demoLink="https://rajcarfolio.netlify.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={urbanmati}
+              isBlog={false}
+              title="UrbnMati (Shopify) "
+              description="Free lance job that i got on fiver , Urbanmati is a Shopify-based e-commerce platform offering a curated selection of trendy, high-quality fashion and lifestyle products. The site features a sleek, modern design with intuitive navigation, providing a seamless shopping experience. With a focus on user-friendly functionality, mobile responsiveness, and secure checkout, Urbanmati effectively caters to the needs of online shoppers"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="JemCarpet"
+              title="JemCarpet(Shopify)"
               description="Contract Job  with Jem Carpets' Shopify page by seamlessly integrating APIs, customizing the Liquor Shop theme, incorporating additional apps, and implementing targeted SEO strategies, resulting in an impressive 40% surge in website traffic."
               demoLink="https://www.jemcarpets.co.uk/"              
             />
@@ -74,7 +82,7 @@ function Projects() {
           <ProjectCard
   imgPath={wordpress}
   isWordpress={false}
-  title="WordPress"
+  title="BrasHealthcare ( Wordpress )"
   description="I'm currently engaged in freelance work for a client whom I connected with via Fiverr. In order to ensure the fulfillment of the client's expectations, I've employed a combination of custom CSS, Elementor, and several other plugins. The website I'm developing is designed to be fully responsive across all devices. Moreover, specific content blocks are strategically set to be visible based on the device and viewport, enhancing the user experience across various platforms."
   wordpressLink="https://brashealthcare.com"
 />
@@ -85,7 +93,7 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="WeatherApp"
+              title="WeatherApp (React) "
               description=" 
               I designed a streamlined weather app using Weather API integration ( open weather Free Api )and React JS, Html ,JSx  and CSS . This application provides real-time weather updates in a user-friendly interface, ensuring a seamless experience. The integration of Weather API with React JS enhances functionality, making it a dynamic and interactive tool for users seeking accurate and accessible weather information.  " 
               ghLink="https://github.com/rajeshofficial/weatherAPi "
