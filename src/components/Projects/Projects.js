@@ -61,12 +61,13 @@ function Projects() {
             />
           </Col>
           <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={urbanmati}
-              isBlog={false}
-              title="UrbnMati (Shopify) "
-              description="Free lance job that i got on fiver , Urbanmati is a Shopify-based e-commerce platform offering a curated selection of trendy, high-quality fashion and lifestyle products. The site features a sleek, modern design with intuitive navigation, providing a seamless shopping experience. With a focus on user-friendly functionality, mobile responsiveness, and secure checkout, Urbanmati effectively caters to the needs of online shoppers"
-            />
+          <ProjectCard
+  imgPath={urbanmati}
+  isBlog={false}
+  title="UrbnMati (Shopify)"
+  description="Freelance job I got on Fiverr: Urbanmati is a Shopify-based e-commerce platform offering a curated selection of trendy, high-quality fashion and lifestyle products. The site features a sleek, modern design with intuitive navigation, providing a seamless shopping experience."
+  demoLink="https://urbanmati.com" 
+/>
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -84,7 +85,7 @@ function Projects() {
   isWordpress={false}
   title="BrasHealthcare ( Wordpress )"
   description="I'm currently engaged in freelance work for a client whom I connected with via Fiverr. In order to ensure the fulfillment of the client's expectations, I've employed a combination of custom CSS, Elementor, and several other plugins. The website I'm developing is designed to be fully responsive across all devices. Moreover, specific content blocks are strategically set to be visible based on the device and viewport, enhancing the user experience across various platforms."
-  wordpressLink="https://brashealthcare.com"
+  demoLink="https://brashealthcare.com"
 />
 
           </Col>
