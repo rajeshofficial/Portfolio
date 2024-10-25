@@ -84,7 +84,7 @@ function Projects() {
   imgPath={wordpress}
   isWordpress={false}
   title="BrasHealthcare ( Wordpress )"
-  description="I'm currently engaged in freelance work for a client whom I connected with via Fiverr. In order to ensure the fulfillment of the client's expectations, I've employed a combination of custom CSS, Elementor, and several other plugins. The website I'm developing is designed to be fully responsive across all devices. Moreover, specific content blocks are strategically set to be visible based on the device and viewport, enhancing the user experience across various platforms."
+  description="I completed a freelance project for a pharmaceutical manufacturing company, delivering a fully responsive website using custom CSS, Elementor, and various plugins. The site is optimized for all devices, with content blocks tailored to display based on device and viewport, ensuring a seamless user experience"
   demoLink="https://brashealthcare.com"
 />
 
