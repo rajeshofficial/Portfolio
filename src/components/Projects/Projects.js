@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/forecast.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import urbanmati from "../../Assets/Projects/urban.png";
+import ITS from "../../Assets/Projects/ITC.png"
 
 import SDGdevelopment from "../../Assets/Projects/sustainbleD.png";
 
@@ -36,6 +37,16 @@ function Projects() {
               ghLink="https://github.com/rajeshofficial/InteractiveMaps.git"
               demoLink="https://sustainabledevelopmentmap.netlify.app"
 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ITS}
+              isBlog={false}
+              title="Indian Tech Solution  "
+              description="Indian Tech Solutions has completely redesigned its website using cutting-edge technologies like React and Angular. Partnering with a leading web development agency, they have enhanced their design, improved functionality, and introduced mobile development capabilities to deliver a seamless user experience "
+              ghLink="https://github.com/rajeshofficial/indiantechsolutions.git"
+              demoLink="https://indiantechsolutions.com/"
             />
           </Col>
           <Col md={4} className="project-card">
